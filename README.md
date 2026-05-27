@@ -10,7 +10,7 @@ An automated, Arduino-based toll gate system that manages vehicle entry and exit
 * **Automated Entry:** Uses an Ultrasonic sensor to detect approaching vehicles and open the gate.
 * **Automated Exit:** Uses an IR sensor to detect vehicles leaving the toll area.
 * **LCD Interface:** Displays "Welcome", "Thank You", and standby messages based on the current state.
-* **LED Indicators:** Green LED indicates the gate is open; Red LED indicates the gate is closed.
+* **LED Indicators:** Green LED indicates the gate is closed; Red LED indicates the gate is open.
 * **Flicker-Free Display:** Implements state-tracking to ensure the LCD only updates when the gate status changes, preventing screen flickering.
 
 ## Hardware Requirements
@@ -33,8 +33,8 @@ An automated, Arduino-based toll gate system that manages vehicle entry and exit
 | Ultrasonic Echo | Digital 7 |
 | IR Sensor OUT | Digital 4 |
 | Servo Signal | Digital 9 |
-| Red LED (Closed) | Digital 5 |
-| Green LED (Open) | Digital 2 |
+| Green LED (Closed) | Digital 5 |
+| Red LED (Open) | Digital 2 |
 | I2C LCD SDA | A4 (or dedicated SDA pin) |
 | I2C LCD SCL | A5 (or dedicated SCL pin) |
 
@@ -58,9 +58,9 @@ Before uploading the code, ensure you have the following libraries installed in 
 
 ## How It Works
 
-1.  **Idle State:** The gate remains closed (Servo at 180°), the Red LED is ON, and the LCD reads "Welcome To Toll Gate".
-2.  **Entry Detected:** When the Ultrasonic sensor detects an object within 15 units, the gate opens (Servo at 90°), the Green LED turns ON, and the LCD welcomes the driver. The gate stays open for 4 seconds.
-3.  **Exit Detected:** When the IR sensor detects an object, the gate opens, the Green LED turns ON, and the LCD displays "Thank You". The gate stays open for 4 seconds.
+1.  **Idle State:** The gate remains closed (Servo at 180°), the Green LED is ON, and the LCD reads "Welcome To Toll Gate".
+2.  **Entry Detected:** When the Ultrasonic sensor detects an object within 15 units, the gate opens (Servo at 90°), the Red LED turns ON, and the LCD welcomes the driver. The gate stays open for 4 seconds.
+3.  **Exit Detected:** When the IR sensor detects an object, the gate opens, the Red LED turns ON, and the LCD displays "Thank You". The gate stays open for 4 seconds.
 
 ## License
 
