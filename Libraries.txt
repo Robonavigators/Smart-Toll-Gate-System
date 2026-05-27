@@ -1,2 +1,0 @@
-Libraries needed:
-LiquidCrystal_I2C.h 
