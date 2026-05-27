@@ -15,7 +15,7 @@ An automated, Arduino-based toll gate system that manages vehicle entry and exit
 
 ## Hardware Requirements
 
-* Arduino Uno (or compatible board)
+* 1x Arduino Uno (or compatible board)
 * 1x Ultrasonic Sensor (HC-SR04)
 * 1x IR Obstacle Avoidance Sensor
 * 1x 16x2 LCD Display with I2C module
