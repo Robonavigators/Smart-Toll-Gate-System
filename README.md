@@ -1,6 +1,7 @@
 # Smart Toll Gate System
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Arduino UNO: Supported](https://img.shields.io/badge/Arduino_UNO-Supported-00979D?style=flat&logo=arduino)](https://store.arduino.cc/products/arduino-uno-rev3)
 
 An automated, Arduino-based toll gate system that manages vehicle entry and exit using ultrasonic and IR sensors. This project features a servo-operated gate, an I2C LCD screen for driver greetings, and LED status indicators.
 
