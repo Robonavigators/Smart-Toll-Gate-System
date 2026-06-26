@@ -3,9 +3,9 @@ Arduino UNO R3
 Breadboard large
 Jumper wires
 IR sensor
-Ultrasonic sensor
-16x2 LCD display with I2c Module
-12V 18650 Battery Pack (each cell 3.7V)
+Ultrasonic sensor HC-SR04
+16x2 LCD display with I²C Module
+11.1V 18650 Battery Pack (each cell 3.7V)
 Normal Switch
 Forex Sheet
 SG90/MG90S Micro servo motor
