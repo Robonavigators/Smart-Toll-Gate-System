@@ -7,6 +7,9 @@
 
 An automated, Arduino-based toll gate system that manages vehicle entry and exit using ultrasonic and IR sensors. This project features a servo-operated gate, an I2C LCD screen for driver greetings, and LED status indicators.
 
+> **Project scope:** This is an educational **sensor-operated barrier prototype**, not a toll-payment system. It does **not** use RFID cards or readers, collect toll fees, process payments, track transactions, recognise license plates or perform automatic billing. Vehicle detection uses an HC-SR04 ultrasonic sensor and an IR obstacle sensor.
+
+
 ## Features
 
 * **Automated Entry:** Uses an Ultrasonic sensor to detect approaching vehicles and open the gate.
@@ -51,7 +54,7 @@ Before uploading the code, ensure you have the following libraries installed in 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/yourusername/smart-toll-gate.git](https://github.com/yourusername/smart-toll-gate.git)
+    git clone https://github.com/Robonavigators/Smart-Toll-Gate-System.git
     ```
 2.  **Wire the components:** Follow the pin configuration table above to connect all components to your Arduino.
 3.  **Open the Code:** Open the `.ino` file in the Arduino IDE.
